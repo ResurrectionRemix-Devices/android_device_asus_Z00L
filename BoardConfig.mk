@@ -28,7 +28,7 @@ TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 TARGET_KERNEL_CONFIG := Z00L_defconfig
 
 # Properties
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Shipping API level (for CTS backward compatibility)
 PRODUCT_SHIPPING_API_LEVEL := 21
